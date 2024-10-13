@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* index.css */
+
+/* Hide scrollbars while allowing scrolling */
+
+
+/* WebKit browsers (Chrome, Safari) */
+
+
+/* Firefox */
+/* #root {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+} */
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background: hsl(0, 0%, 52%);
+  border-radius: 100vw;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 0%);
+  border-radius: 100vw;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: hsl(0, 0%, 27%);
+}
+
+
+
+.verticalscroll::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.verticalscroll::-webkit-scrollbar-track {
+  background: hsl(0, 0%, 52%);
+  border-radius: 100vw;
+}
+
+.verticalscroll::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 0%);
+  border-radius: 100vw;
+}
+
+.verticalscroll::-webkit-scrollbar-thumb:hover {
+  background: hsl(0, 0%, 27%);
+}
+
+
+* {
+    font-family: "Noto Sans", "Crimson Text", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .crimson-text-semibold {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .crimson-text-bold {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .crimson-text-regular-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .crimson-text-semibold-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .crimson-text-bold-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  

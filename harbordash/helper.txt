@@ -1,0 +1,9 @@
+urls - routes
+
+
+migration commands
+python .\manage.py makemigrations
+python .\manage.py migrate
+
+start server localhost
+- python .\manage.py runserver
